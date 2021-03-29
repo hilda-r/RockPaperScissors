@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sten, sax, påse</title>
+        <link href="style.css" rel="stylesheet" media="all" type="text/css">
+    </head>
+    
+    <body>
+    	
+        <div id="logo-wrapper">
+        	<img src="img/ribbon.png" alt="Sten, sax, påse" id="logo">
+        </div>
+        
+    	<div id="wrapper">
+            
+            <h2>Välj sten, sax eller påse</h2>
+            <p>Först till tre vinner<br>--------</p>
+            
+            <p id="round-choices"></p>
+            <p id="round-results"></p>
+            <p id="total-results"></p>
+            
+            <div id="buttons">
+                <a class="choice" id="rock" data-number="sten"><img src="img/button-rock.png" title="Sten" alt="sten" onMouseOver="this.src='img/button-rock-hover.png';" 
+onMouseOut="this.src='img/button-rock.png';"></a>
+                <a class="choice" id="scissors" data-text="sax"><img src="img/button-scissors.png" title="Sax" alt="sax" onMouseOver="this.src='img/button-scissors-hover.png';" 
+onMouseOut="this.src='img/button-scissors.png';"></a>
+                <a class="choice" id="paper" data-text="påse"><img src="img/button-paper.png" title="Påse" alt="påse" onMouseOver="this.src='img/button-paper-hover.png';" 
+onMouseOut="this.src='img/button-paper.png';"></a>
+            </div>
+            
+            <p id="score"></p>
+            <br>
+            <br>
+            <a id="reset"><img src="img/button-reset.png" onMouseOver="this.src='img/button-reset-hover.png';" onMouseOut="this.src='img/button-reset.png';"></a>
+                        
+        </div>
+        
+        <div id="flag">
+        	<a href="game-en.html"><img src="img/flag-en.png" title="Play the game in English" alt="Play the game in English"onMouseOver="this.src='img/flag-en-hover.png';" onMouseOut="this.src='img/flag-en.png';"></a>
+        </div>
+        
+        <br>
+        <a href="http://www.hildarytteke.se">Klicka här för att gå tillbaka till startstidan</a>        
+        
+        <script src="game-sv.js"></script>
+    </body>
+</html>
